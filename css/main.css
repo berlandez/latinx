@@ -1,136 +1,197 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+/*******************************************
+GENERAL
+********************************************/
 
-header {
-  background-color: red;
-  font-size: 50px;
-}
-
-/*footer*/
-.footer {
-  background-color: gray;
-  color:white;
-  clear:both;
-  text-align: center;
-}
-.footer li {
-  list-style-type: none;
+body {
+  font-family: 'Merriweather', serif;
 }
 
-
-
-@media screen and (max-width: 560px){
-
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
 }
 
-/*----------------------------------------------
-CSS settings for HTML div Exact Center
-------------------------------------------------*/
-#abc {
-width:100%;
-height:100%;
-opacity:.95;
-top:0;
-left:0;
-display:none;
-position:fixed;
-background-color:#313131;
-overflow:auto
+a {
+  text-decoration: none;
 }
-img#close {
-position:absolute;
-right:-14px;
-top:-14px;
-cursor:pointer
+
+img {
+  max-width: 100%;
 }
-div#popupContact {
-position:absolute;
-left:50%;
-top:17%;
-margin-left:-202px;
-font-family:'Raleway',sans-serif
+
+h3 {
+  margin: 0 0 1em 0;
+
 }
-form {
-max-width:300px;
-min-width:250px;
-padding:10px 50px;
-border:2px solid gray;
-border-radius:10px;
-font-family:raleway;
-background-color:#fff
-}
-p {
-margin-top:30px
-}
-h2 {
-background-color:#FEFFED;
-padding:20px 35px;
-margin:-10px -50px;
-text-align:center;
-border-radius:10px 10px 0 0
-}
-hr {
-margin:10px -50px;
-border:0;
-border-top:1px solid #ccc
-}
-input[type=text] {
-width:82%;
-padding:10px;
-margin-top:30px;
-border:1px solid #ccc;
-padding-left:40px;
-font-size:16px;
-font-family:raleway
-}
-#name {
-background-image:url(../images/name.jpg);
-background-repeat:no-repeat;
-background-position:5px 7px
-}
-#email {
-background-image:url(../images/email.png);
-background-repeat:no-repeat;
-background-position:5px 7px
-}
-textarea {
-background-image:url(../images/msg.png);
-background-repeat:no-repeat;
-background-position:5px 7px;
-width:82%;
-height:95px;
-padding:10px;
-resize:none;
-margin-top:30px;
-border:1px solid #ccc;
-padding-left:40px;
-font-size:16px;
-font-family:raleway;
-margin-bottom:30px
-}
-#submit {
-text-decoration:none;
-width:100%;
-text-align:center;
-display:block;
-background-color:#FFBC00;
-color:#fff;
-border:1px solid #FFCB00;
-padding:10px 0;
-font-size:20px;
-cursor:pointer;
-border-radius:5px
-}
-span {
-color:red;
-font-weight:700
-}
-button {
-width:10%;
-height:45px;
-border-radius:3px;
-background-color:#cd853f;
-color:#fff;
-font-family:'Raleway',sans-serif;
-font-size:18px;
-cursor:pointer
-}
+
+  /*******************************************
+  HEADING
+  ********************************************/
+
+  header {
+  	float: left;
+  	margin: 0 0 30px 0;
+  	padding: 5px 0 0 0;
+  	width: 100%;
+  }
+
+  #logo {
+  	text-align: center;
+  	margin: 0;
+  }
+
+  h1 {
+  	font-family: 'Galada', sans-serif;
+  	margin: 15px 0;
+  	font-size: 1.75em;
+  	font-weight: normal;
+  	line-height: 0.8em;
+  }
+
+  h2 {
+  	font-size: 0.75em;
+  	margin: -5px 0 0;
+  	font-weight: normal;
+  }
+
+
+
+  /*******************************************
+  NAVIGATION
+  ********************************************/
+
+  nav {
+  	text-align: center;
+  	padding: 10px 0;
+  	margin: 20px 0 0;
+  }
+
+  nav ul {
+  	list-style: none;
+  	margin: 0 10px;
+  	padding: 0;
+  }
+
+  nav li {
+  	display: inline-block;
+  }
+
+  nav a {
+  	font-weight: 700;
+  	padding: 15px 10px;
+  }
+
+
+
+  /*******************************************
+  FOOTER
+  ********************************************/
+
+  footer {
+  	font-size: 0.75em;
+  	text-align: center;
+  	clear: both;
+  	padding-top: 50px;
+  	color: #ccc;
+  }
+
+  .social-icon {
+  	width: 20px;
+  	height: 20px;
+  	margin: 0 5px;
+  }
+
+
+
+  /*******************************************
+  PAGE: LANDING
+  ********************************************/
+
+  #gallery {
+  	margin: 0;
+  	padding: 0;
+  	list-style-type: none;
+  }
+
+  #gallery li {
+  	float: left;
+  	width: 45%;
+  	margin: 2.5%;
+  	background-color: f5f5f5;
+  	color: #bdc3c7;
+  }
+
+  #gallery li a p{
+  	margin: 0;
+  	padding: 5%;
+  	font-size: 0.75em;
+  	color: #bdc3c7;
+  }
+
+  .profile-photo {
+  	width: 150px;
+    height: 150px;
+  	margin: 0 auto 30px;
+  	border-radius: 100%;
+  }
+
+
+
+  /*******************************************
+  PAGE: CONTACT
+  ********************************************/
+
+  .contact-info{
+  	text-align: center;
+  	list-style: none;
+  	padding: 0;
+  	margin: 0;
+  }
+
+  .contact-info .social-icon {
+  	width: 60px;
+  	height: 60px;
+  	margin: 0 5px;
+  }
+
+  /*******************************************
+  COLORS
+  ********************************************/
+
+  /* site body */
+  body {
+  	background-color: #fff;
+  	color:#999;
+  }
+
+  /* green header */
+  header {
+  	background: #ea1143;
+  	border-color: #599a68;
+  }
+
+  /* nav background on mobile */
+  nav {
+  	background: ##33cc33;
+  }
+
+  /* logo text */
+  h1, h2 {
+  	color: #fff;
+  }
+
+  /* links */
+  a {
+  	color: #6ab47b;
+  }
+
+  /* nav links */
+  nav a, nav a:visited {
+  	color: #fff;
+  }
+
+  /* selected nav link */
+  nav a.selected, nav a:hover {
+  	color:#32673f;
+  }
