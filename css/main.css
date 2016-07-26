@@ -5,6 +5,16 @@ header {
   font-size: 50px;
 }
 
+/*footer*/
+.footer {
+  background-color: gray;
+  color:white;
+  clear:both;
+  text-align: center;
+}
+.footer li {
+  list-style-type: none;
+}
 
 
 
