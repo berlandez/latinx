@@ -3,93 +3,71 @@
   <head>
     <meta charset="utf-8">
       <title>L@ T@lent</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
-              integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-        <link rel="stylesheet" href="hero.css">
-    <link href="css/main.css" rel="stylesheet">
-
+      <link rel="stylesheet" href="css/normalize.css">
+      <link href="https://fonts.googleapis.com/css?family=Galada|Merriweather:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" >
   </head>
-  <body id ="body" style="overflow:hidden;">
+  <body>
     <header>
+      <a href='index.html' id='logo'>
         <h1>L@ T@lent</h1>
-
-      <!-- Navigation -->
-     <nav class="navbar navbar-light bg-faded" style="background-color:#33cc33;">
-     <ul class="nav navbar-nav">
-       <li class="nav-item active">
-         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-         </li>
-   <li class="nav-item">
-     <a class="nav-link" href="#"> Second Page</a>
-   </li>
-       <li class="nave-item">
-     <a class="nav-link" href="#"> Third Page</a>
-        </li>
- </ul>
-
-</nav>
-
+      </a>
     </header>
     <div id="wrapper">
-    <div id='abc'>
-    <!-- Popup Div -->
-    <div id="popupContact">
-    <!-- Contact Form -->
-    <form action="#" id='form' method='post' name='form'>
-    <img id='close' src="" onclick ='div_hide()'
-    <h2>Contact Us</h2>
-    <input id='firstname' name='firstname' placeholder='First Name' type='text'>
-    <input id='lastname' name='lastname' placeholder='Last Name' type='text'>
-    <input id='company' name='company' placeholder='Company' type='text'>
-    <input id='title' name='title' placeholder='Title' type='text'>
-    <input id='email' name='email' placeholder='Email' type='text'>
-    <input id='phone' name='email' placeholder='Phone' type='text'>
-    <a href='javascript:%20check_empty()' id='submit'>Click for great candidates today</a>
-  </form>
-  </div>
-</div>
-  <!-- Display Popup Button -->
-    <h1>Start Hiring</h1>
-    <button id="popup" onclick="div_show()">Popup</button>
-    <footer>
-<h4> Professionals </h4>
+      <section>
+        <ul id="gallery">
+          <li>
+            <a href=''>
+              <p>Something will go here</p>
+            </a>
+          </li>
+          <li>
+            <a href=''>
+              <p>Something will go here</p>
+            </a>
+          </li>
+          <li>
+            <a href=''>
+              <p>Something will go here</p>
+            </a>
+          </li>
+          <li>
+            <a href=''>
+              <p>Something will go here</p>
+            </a>
+          </li>
+          <li>
+            <a href=''>
+              <p>Something will go here</p>
+            </a>
+          </li>
+          <li>
+            <a href=''>
+              <p>Something will go here</p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section>
+        <p>This site was brought to you by</p>
+        <img src ="img/jason.jpg" alt="Picture of Jason Hernandez Berland" class="profile-photo">
+        <img src ="img/luis.jpg" alt="Picture of Luis Sanchez" class="profile-photo">
+      </section>
+      <footer>
+        <h4> Professionals </h4>
 
-<a href=""> Contact</a>
-<a href=""> Our Professionals </a>
-<a href=""> FAQ </a>
-<a href=""> Why Us </a>
+        <a href=""> Contact</a>
+        <a href=""> Our Professionals </a>
+        <a href=""> FAQ </a>
+        <a href=""> Why Us </a>
 
-<h4> Connect </h4>
+        <h4> Connect </h4>
 
-  <a href=""> Blog </a>
-  <a href=""> Google+ </a>
-  <a href=""> Codepen </a>
-  <a href=""> Github </a>
-        </footer>
-
-    <script>
-      function check_empty() {
-        if (document.getElementById('firstname').value == || document.getElementById('lastname').value == '' || document.getElementById('company').value == '' ||
-        document.getElementById('title').value == '' || document.getElementById('email').value == '' ||
-        document.getElementById('phone').value == '') {
-        alert('Please include all your info so we can get you the best candidate');
-      } else {
-        document.getElementById('form').submit();
-        alert('Awesome Candidates Coming Real Soon...');
-      }
-      }
-      //Function To Display Popup
-      function div_show() {
-        document.getElementById('abc').style.display = 'block';
-      }
-      //Function to Hide Popup
-      function div_hide(){
-        document.getElementById('abc').style.display = 'none';
-      }
-    </script>
-  </div>
+        <a href=""> Blog </a>
+        <a href=""> Google+ </a>
+        <a href=""> Codepen </a>
+        <a href=""> Github </a>
+      </footer>
+    </div>
   </body>
 </html>
