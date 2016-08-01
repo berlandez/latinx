@@ -108,6 +108,15 @@ h3 {
   PAGE: LANDING
   ********************************************/
 
+  #why-hire-wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+    text-align: center;
+  }
+
+  }
+
   #gallery {
   	margin: 0;
   	padding: 0;
@@ -130,8 +139,7 @@ h3 {
   }
 
   .profile-photo {
-  	width: 150px;
-    height: 150px;
+  	max-width: 150px;
   	margin: 0 auto 30px;
   	border-radius: 100%;
   }
