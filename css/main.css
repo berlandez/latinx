@@ -6,12 +6,6 @@ body {
   font-family: 'Merriweather', serif;
 }
 
-#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
-}
-
 a {
   text-decoration: none;
 }
@@ -29,17 +23,25 @@ h3 {
   HEADING
   ********************************************/
 
-  header {
-  	float: left;
-  	margin: 0 0 30px 0;
-  	padding: 5px 0 0 0;
-  	width: 100%;
+  .cover-image {
+    height: 50vh;
+    width: 100%;
+    background-image: url("../img/latina-engineer.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
   }
 
-  #logo {
-  	text-align: center;
+
+  #logoImage {
   	margin: 0;
+    width: 200px;
   }
+
 
   h1 {
   	font-family: 'Galada', sans-serif;
@@ -54,6 +56,8 @@ h3 {
   	margin: -5px 0 0;
   	font-weight: normal;
   }
+
+
 
 
 
@@ -82,7 +86,54 @@ h3 {
   	padding: 15px 10px;
   }
 
+/*CONTRIBUTORS SECTION*/
+body{
+   margin:0;
+}
+.img-wrap{
+  margin: 10px 30px 10px 30px;
+  display:inline-block;
+}
+.img-wrap ul{
+  padding:0;
+}
+.img-wrap img{
+  width:240px;
+}
 
+.founders {
+  border-radius:50%;
+  width:100%;
+}
+
+.img-wrap li{
+  list-style-type:none;
+  color:#999;
+ font-family: 'Merriweather', serif;
+  font-size:18px;
+}
+.name{
+  color:black
+}
+
+.wrapper {
+  margin:auto;
+max-width:910px;
+  text-align:center;
+
+}
+
+.contributors p{
+
+  color:#999;
+  text-align:center;
+  background-size:cover;
+  padding:1em;
+  width:100%;
+  margin: 1px 1px 1px 1px;
+}
+
+/*END CONTRIBUTORS SECTION*/
 
   /*******************************************
   FOOTER
@@ -108,6 +159,12 @@ h3 {
   PAGE: LANDING
   ********************************************/
 
+  .main-wrapper {
+    max-width: 940px;
+    margin: 400px auto 0;
+    padding: 0 5%;
+  }
+
   #why-hire-wrapper {
     max-width: 940px;
     margin: 0 auto;
@@ -115,7 +172,6 @@ h3 {
     text-align: center;
   }
 
-  }
 
   #gallery {
   	margin: 0;
@@ -174,10 +230,10 @@ h3 {
   }
 
   /* green header */
-  header {
+  /*header {
   	background: #ea1143;
   	border-color: #599a68;
-  }
+  }*/
 
   /* nav background on mobile */
   nav {
