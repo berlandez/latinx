@@ -19,6 +19,56 @@ h3 {
 
 }
 
+
+
+/*******************************************
+COLORS
+********************************************/
+
+/* definition text */
+p.definition {
+  color: #040404;
+  padding-left: 10px;
+}
+
+
+/* site body */
+body {
+  background-color: #fff;
+  color:#999;
+}
+
+/* green header */
+/*header {
+  background: #ea1143;
+  border-color: #599a68;
+}*/
+
+/* nav background on mobile */
+nav {
+  background: ##33cc33;
+}
+
+/* logo text */
+h1, h2, h3 {
+  color: ##4a4a4a;
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+
+/* nav links */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color:#32673f;
+}
+
   /*******************************************
   HEADING
   ********************************************/
@@ -215,53 +265,7 @@ max-width:910px;
   	margin: 0 5px;
   }
 
-  /*******************************************
-  COLORS
-  ********************************************/
 
-/* definition text */
-  p.definition {
-    color: #040404;
-    padding-left: 10px;
-  }
-
-
-  /* site body */
-  body {
-  	background-color: #fff;
-  	color:#999;
-  }
-
-  /* green header */
-  /*header {
-  	background: #ea1143;
-  	border-color: #599a68;
-  }*/
-
-  /* nav background on mobile */
-  nav {
-  	background: ##33cc33;
-  }
-
-  /* logo text */
-  h1, h2, h3 {
-  	color: ##4a4a4a;
-  }
-
-  /* links */
-  a {
-  	color: #6ab47b;
-  }
-
-  /* nav links */
-  nav a, nav a:visited {
-  	color: #fff;
-  }
-
-  /* selected nav link */
-  nav a.selected, nav a:hover {
-  	color:#32673f;
-  }
   /*******************************************
   flex-box
   ********************************************/
