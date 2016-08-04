@@ -37,14 +37,10 @@ h3 {
   }
 
 
-  #logoImage {
-  	margin: 0;
-    width: 200px;
-  }
+
 
 
   h1 {
-  	font-family: 'Galada', sans-serif;
   	margin: 15px 0;
   	font-size: 1.75em;
   	font-weight: normal;
@@ -223,6 +219,13 @@ max-width:910px;
   COLORS
   ********************************************/
 
+/* definition text */
+  p.definition {
+    color: #040404;
+    padding-left: 10px;
+  }
+
+
   /* site body */
   body {
   	background-color: #fff;
@@ -241,8 +244,8 @@ max-width:910px;
   }
 
   /* logo text */
-  h1, h2 {
-  	color: #fff;
+  h1, h2, h3 {
+  	color: ##4a4a4a;
   }
 
   /* links */
@@ -260,7 +263,7 @@ max-width:910px;
   	color:#32673f;
   }
   /*******************************************
-  felx-box
+  flex-box
   ********************************************/
    .flex-container {
     padding: 10;
