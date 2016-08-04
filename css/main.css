@@ -116,11 +116,15 @@ body{
   color:black
 }
 
-.wrapper {
-  margin:auto;
-max-width:910px;
-  text-align:center;
 
+.contributors {
+  text-align: center;
+}
+
+.contributors h1
+ {
+  color: black;
+  padding-top: 50px;
 }
 
 .contributors p{
@@ -161,7 +165,7 @@ max-width:910px;
 
   .main-wrapper {
     max-width: 940px;
-    margin: 400px auto 0;
+    margin: 50vh auto 0;
     padding: 0 5%;
   }
 
