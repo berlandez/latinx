@@ -35,7 +35,7 @@ p.definition {
 /* site body */
 body {
   background-color: #fff;
-  color:#999;
+  /*color:#999;*/
 }
 
 /* green header */
@@ -50,9 +50,9 @@ nav {
 }
 
 /* logo text */
-h1, h2, h3 {
+/*h1, h2, h3 {
   color: ##4a4a4a;
-}
+}*/
 
 /* links */
 a {
@@ -154,7 +154,7 @@ body{
 
 .img-wrap li{
   list-style-type:none;
-  color:#999;
+  color:black;
  font-family: 'Merriweather', serif;
   font-size:18px;
 }
