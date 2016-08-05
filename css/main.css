@@ -19,6 +19,56 @@ h3 {
 
 }
 
+
+
+/*******************************************
+COLORS
+********************************************/
+
+/* definition text */
+p.definition {
+  color: #040404;
+  padding-left: 10px;
+}
+
+
+/* site body */
+body {
+  background-color: #fff;
+  color:#999;
+}
+
+/* green header */
+/*header {
+  background: #ea1143;
+  border-color: #599a68;
+}*/
+
+/* nav background on mobile */
+nav {
+  background: ##33cc33;
+}
+
+/* logo text */
+h1, h2, h3 {
+  color: ##4a4a4a;
+}
+
+/* links */
+a {
+  color: #6ab47b;
+}
+
+/* nav links */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color:#32673f;
+}
+
   /*******************************************
   HEADING
   ********************************************/
@@ -37,14 +87,10 @@ h3 {
   }
 
 
-  #logoImage {
-  	margin: 0;
-    width: 200px;
-  }
+
 
 
   h1 {
-  	font-family: 'Galada', sans-serif;
   	margin: 15px 0;
   	font-size: 1.75em;
   	font-weight: normal;
@@ -224,48 +270,9 @@ body{
   	margin: 0 5px;
   }
 
+
   /*******************************************
-  COLORS
-  ********************************************/
-
-  /* site body */
-  body {
-  	background-color: #fff;
-  	color:#999;
-  }
-
-  /* green header */
-  /*header {
-  	background: #ea1143;
-  	border-color: #599a68;
-  }*/
-
-  /* nav background on mobile */
-  nav {
-  	background: ##33cc33;
-  }
-
-  /* logo text */
-  h1, h2 {
-  	color: #fff;
-  }
-
-  /* links */
-  a {
-  	color: #6ab47b;
-  }
-
-  /* nav links */
-  nav a, nav a:visited {
-  	color: #fff;
-  }
-
-  /* selected nav link */
-  nav a.selected, nav a:hover {
-  	color:#32673f;
-  }
-  /*******************************************
-  felx-box
+  flex-box
   ********************************************/
    .flex-container {
     padding: 10;
